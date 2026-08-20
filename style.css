@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
+
+/* =========================================
+   CONFIGURAÇÕES GERAIS
+   ========================================= */
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Fundo da página inteira */
+html {
+    background-color: #F3F4F6;
+}
+
+/* Transformando o body no container do formulário */
+body {
+    background-color: #FFFFFF;
+    max-width: 450px;
+    margin: 50px auto; /* Centraliza na tela com margem no topo/baixo */
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================================
+   TÍTULO E TEXTOS
+   ========================================= */
+h1 {
+    text-align: center;
+    color: #1F2937;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4B5563;
+    display: block; /* Faz o label ocupar a linha toda */
+    margin-bottom: 6px;
+}
+
+/* =========================================
+   CAMPOS DE ENTRADA (INPUTS)
+   ========================================= */
+input {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 20px; /* Cria o espaçamento no lugar do <br> */
+    border: 1px solid #D1D5DB;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #4F46E5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.15);
+}
+
+input::placeholder {
+    color: #9CA3AF;
+}
+
+/* Ocultando o <br> para o CSS gerenciar os espaços de forma mais limpa */
+br {
+    display: none; 
+}
+
+/* =========================================
+   BOTÃO DE ENVIO
+   ========================================= */
+button {
+    width: 100%;
+    background-color: #4F46E5;
+    color: white;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4338CA;
+}
